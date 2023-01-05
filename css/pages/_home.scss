@@ -1,0 +1,271 @@
+.welcome-to-makena{
+    background: url(../img/palm-bg.jpg) no-repeat center/cover;
+    
+    height: 115vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    @media screen and(min-width:600px){
+       position: relative;
+    }
+   
+    h4{
+        margin: 0;
+    }
+    .img-femme img{
+        margin-left: 60px;
+        width: 80%;
+        margin-top: 80px;
+        height: 80%;
+        @media screen and(min-width:600px){
+           width: 60%;
+           height: 90vh;
+           margin-left: 10%;
+        }
+       
+    }
+   
+}
+.welcome-content{
+    margin-left: 60px;
+    background: #fff;
+    width: 80%;
+    margin-bottom: 50px;
+    height: 40%;
+    @media screen and(min-width:600px){
+       position: absolute;
+       top: 25%;
+       left: 50%;
+       z-index: 3;
+       width: 35%;
+       height: 55vh;
+     
+    }
+    
+    h4{
+        margin: 40px 30px 0 ;
+        color: firebrick;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 12px;
+        @media screen and(min-width:600px){
+            margin-left: 13%;
+            margin-top: 90px;
+        }
+    }
+    h1{
+        margin: 20px 30px 50px ;
+        color:dimgrey;
+        font-weight: 100; 
+        width: 70%;
+        @media screen and(min-width:600px){
+           font-size: 50px;
+           margin-left: 13%;
+          width: 55%;
+        }
+    }
+    
+}
+.btn{
+    text-decoration: none;
+   border: 1px solid firebrick;
+   color: firebrick;
+    padding:13px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+font-weight: bold;
+    margin-left: 30px;
+    @media screen and(min-width:600px){
+       padding: 20px 30px;
+       margin-left: 13%;
+    }
+  }
+.parti-description{
+height: 160vh;
+   display: flex;
+  flex-direction: column;
+  @media screen and(min-width:600px){
+    height: 115vh;
+  }
+  
+}
+.bg-plage{
+   background:url(../img/makena.jpg) center/cover;
+   height: 70vh;
+   @media screen and(min-width:600px){
+    height: 160vh;
+   
+   }
+}
+.description{
+   height: 50vh;
+   margin: 80px 20px 80px 40px;
+   @media screen and(min-width:600px){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   }
+   h3{
+    font-size: 28px;
+    font-weight: 100;
+    color:dimgrey;
+    line-height: 40px;
+    @media screen and(min-width:600px){
+        width: 35%;
+        font-size: 50px;
+        line-height: 70px;
+    }
+   }
+   p{
+    font-size: 15px;
+    font-weight: 100;
+    color:dimgrey;
+    line-height: 30px;
+    @media screen and(min-width:600px){
+        width: 28%;
+        font-size: 19px;
+        line-height: 35px;
+       
+    }
+   }
+
+}
+.text-img{
+    margin: 20px 40px 10px ;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    @media screen and(min-width:600px){
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 80vh;
+        margin-bottom: 20%;
+    }
+    .text1{
+        margin-left: 50px ;
+        margin-right: 50px;
+        font-size: 14px;
+        font-weight: 100;
+        color:dimgrey;
+        line-height: 25px;
+        @media screen and(min-width:600px){
+            width: 25%;
+        }
+        p:nth-child(1){
+            color: firebrick;
+            text-transform: uppercase;
+            font-size: 12px;
+            @media screen and(min-width:600px){
+                font-size: 15px;
+            }
+        }
+        p{
+            @media screen and(min-width:600px){
+                line-height: 35px;
+                font-weight: 500;
+            }
+        }
+        h1{
+            font-weight: 100;
+            @media screen and(min-width:600px){
+                font-size: 50px;
+                margin-top: 40px;
+                margin-bottom: 40px;
+               
+            }
+        }
+       
+
+    }
+    
+   
+}
+.image{
+    background: url(../img/island-portrait.jpg) center/cover;
+    box-shadow: 50px 50px 2px 1px rgba(128, 128, 128, 0.459);
+    height: 75vh;
+    margin-top: 15%;
+    width: 390px;
+    @media screen and(min-width:600px){
+        height: 70vh;
+        width: 600px;
+    }
+}
+  
+.image2{
+    background: url(../img/Makena_Andy-Carlson.jpg) center/cover;
+   
+    height: 40vh;
+    margin-bottom:10%;
+    width: 400px;
+    @media screen and(min-width:600px){
+        width: 900px;
+        height: 60vh;
+        margin-top: 10%;
+    }
+
+}
+.text2{
+    @media screen and(min-width:600px){
+        width: 29%;
+    }
+    
+    margin-left: 30px ;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    color:dimgrey;
+    line-height: 30px;
+   
+    p:nth-child(1){
+        color: firebrick;
+        text-transform: uppercase;
+        font-size: 12px;
+       
+    }
+    p{
+        margin-bottom: 30px;
+        @media screen and(min-width:600px){
+          font-weight: bold;
+          margin-bottom: 60px;
+        }
+       
+    }
+    h1{
+        font-weight: 100;
+        @media screen and(min-width:600px){
+            font-size: 40px;
+            width: 100%;
+        }
+    }
+    .btn-view{
+        margin-left: 5px;
+        @media screen and(min-width:600px){
+            padding: 20px 30px;
+        }
+    }
+    @media screen and(min-width:600px){
+        
+        .welcome-to-makena{
+    position: relative;
+    .welcome-content h4{
+        position: absolute ; 
+        top: 50%;
+         right: 0;
+    }
+   
+        }
+       
+    }
+}
+
+   
+    
+        
+
+
+

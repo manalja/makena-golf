@@ -1,0 +1,116 @@
+
+.main-nav{
+    display: none;
+    @media screen and(min-width:600px){
+        
+            display: flex;
+           flex-wrap: nowrap;
+           justify-content:space-between;
+           align-items:flex-end;
+           width: 1000px;
+    
+    }
+}
+.navigation{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    @media screen and(min-width:600px){
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 30px;
+        font-weight:100;
+        @media screen and(min-width:600px){
+            font-size: 20px;
+        }
+
+       }
+}
+ .logo img{
+    width: 80%;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+  .burger-menu{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    right: -150%;
+    cursor: pointer;
+   transition: 1s all cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    border-radius: 7px;
+}
+.burger-menu:hover .top{
+    transform: translate(-50%, -50%) rotate(45deg) ;
+    top: 50%;
+}
+.burger-menu:hover .middle{
+    transform: translate(-50%, -50%) rotate(-45deg) ;
+    top: 50%;
+}
+.burger-menu:hover .bottom{
+    display: none;
+}
+.top {
+    top: 40%;}  
+    .middle{
+top: 20%;
+    }         
+    .burger-menu .bottom {
+    top: 60%;
+    width: 20px;
+  
+}
+
+.burger-menu * {
+    width: 60%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+            }
+            .nav-survol{     
+                position: fixed;     
+                top:0;     
+                left: 0;     
+                 transform: translateY(100%);     
+                transition: 1s all ease-in-out;     
+                bottom: -100%;     
+                z-index: 80;     
+                background: rgba(68, 91, 167, 0.733);     
+                width: 100%;     
+                height: 100%;     
+            }
+        //     body:hover .nav-survol{
+        //          transform: translateX(0); 
+        //    } 
+           .nav-survol nav{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+        margin-left: 10%;
+        a{
+            padding: 10px;
+        }
+
+           }
+           @media screen and(min-width:600px){
+            .burger-menu{
+                display: none;
+
+            }
+            
+           }
+             
+             

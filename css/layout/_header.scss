@@ -1,0 +1,39 @@
+header{
+    height:135vh ;
+     position: relative;
+     overflow: hidden;
+     @media screen and (min-width:600px){
+        height:100vh ;
+     }
+     .head-titre{
+        position: absolute;
+    top: 65%;
+    left: 10%;
+    @media screen and (min-width:600px){
+        position: absolute;
+    top: 55%;
+    left: 8%;
+    }
+    h1{
+
+        color: #fff;
+        font-size: 42px;
+        font-weight: 100; 
+        @media screen and (min-width:600px){
+            font-size: 60px;
+            width: 70%;
+        }
+
+    }
+    p{
+        color: #fff;
+        font-weight: 100;
+        font-weight: bold; 
+        @media screen and (min-width:600px){
+            font-size: 20px;
+        }
+    }
+     }
+     
+}
+
